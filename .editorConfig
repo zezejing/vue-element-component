@@ -1,0 +1,25 @@
+# 参考文档: https://EditorConfig.org
+
+# 指定为最顶层的配置文件
+root = true
+
+# 以下配置对所有文件生效
+[*]
+
+# 定义换行符，支持lf、cr和crlf
+end_of_line = lf
+
+# 文件以一个空白行结尾
+insert_final_newline = true
+
+# 设置文件默认编码为utf-8
+charset = utf-8
+
+# 缩进类型为空格缩进
+indent_style = space
+
+# 缩进大小2空格
+indent_size = 2
+
+# 除去换行行首的任意空白字符
+trim_trailing_whitespace = true

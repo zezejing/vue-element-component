@@ -1,0 +1,50 @@
+{
+  "name": "vue-element-component",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:dev": "vue-cli-service build --mode development",
+    "build:test": "vue-cli-service build --mode test",
+    "lint": "vue-cli-service lint",
+    "dev": "vue-cli-service serve --mode development",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^32.0.0",
+    "@ckeditor/ckeditor5-vue2": "^1.0.5",
+    "awe-dnd": "^0.3.4",
+    "axios": "^0.26.1",
+    "core-js": "^3.8.3",
+    "echarts": "^5.3.1",
+    "element-ui": "^2.15.6",
+    "js-md5": "^0.7.3",
+    "moment": "^2.29.1",
+    "nprogress": "^0.2.0",
+    "path-to-regexp": "^6.2.0",
+    "pinyin": "^2.11.1",
+    "svg-sprite-loader": "^6.0.11",
+    "vue": "^2.6.14",
+    "vue-fragment": "^1.5.2",
+    "vue-print-nb": "^1.7.5",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "path-browserify": "^1.0.1",
+    "postcss": "^8.4.20",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
